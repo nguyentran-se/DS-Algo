@@ -14,7 +14,7 @@ const averagePair = (arr: number[], average: number) => {
 };
 console.log(averagePair([1, 2, 3], 2.5));
 
-//6. ex6
+// 6. ex6
 function isSubsequence(sub, str) {
   const len = str.length;
   const limit = sub.length;
