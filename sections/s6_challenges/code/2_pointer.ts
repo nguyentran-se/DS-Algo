@@ -12,7 +12,7 @@ const averagePair = (arr: number[], average: number) => {
   }
   return false;
 };
-console.log(averagePair([1, 2, 3], 2.5));
+// console.log(averagePair([1, 2, 3], 2.5));
 
 // 6. ex6
 function isSubsequence(sub, str) {
@@ -20,8 +20,11 @@ function isSubsequence(sub, str) {
   const limit = sub.length;
   let next = 0;
   for (let start = 0; start < len; start++) {
-    if (str[start] === str[next]) ++next;
+    if (sub[start] === str[next]) ++next;
+    console.log(next);
     if (next >= limit) return true;
   }
+
   return false;
 }
+console.log(isSubsequence("abc", "acb"));
