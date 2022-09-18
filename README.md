@@ -6,10 +6,11 @@
 
 ## Working
 
-### 1. Section 6
+### 1. Section 6 ✅
 
-### 2. Section 7
+### 2. Section 7 ✅
 
+### 3. Section 8 ⚽
 
 ## Daily
 
